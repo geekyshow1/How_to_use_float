@@ -1,0 +1,37 @@
+.header{
+    background-color: brown;
+    height: 20px;
+    border: solid black 3px;
+}
+.container{
+    border: solid blue 2px;
+    /* 2nd Method */
+    /* overflow:hidden; */
+}
+.childcontent{
+    background-color: chocolate;
+    width:50px;
+    border: solid;
+    margin: 3px;
+    float: left;
+}
+.footer{
+    background-color: pink;
+    height:20px;
+    border: solid red 2px;
+    
+}
+
+/* 1st Method */
+/* .faltu{
+    clear: both;
+} */
+
+
+/* Last and Best Method */
+/* .container::after{
+    content:" ";
+    display:block;
+    clear:both;
+    *zoom:1;
+} */
